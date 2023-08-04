@@ -1,5 +1,6 @@
 {
   "name": "three",
+  "homepage": "https://rohit-004.github.io/Crypto-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "axios": "^1.1.2",
     "chart.js": "^3.9.1",
     "framer-motion": "^7.5.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
