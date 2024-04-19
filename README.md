@@ -20,6 +20,7 @@ To run this project locally, follow these steps:
 
    ```bash
    npm install
+   ```
    ```bash
    yarn install
    
@@ -27,6 +28,7 @@ To run this project locally, follow these steps:
 
    ```bash
    npm start
+   ```
    ```bash
    yarn start
 
